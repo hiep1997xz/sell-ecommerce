@@ -1,15 +1,15 @@
-import React from 'react'
-import Categories from './Categories'
-import Slider from './Slider'
-import './Home.css'
+import React from "react"
+import Categories from "./Categories"
+import "./Home.css"
+import SliderHome from "./Slider"
 
-const Home = ({cartItem}) => {
+const Home = () => {
   return (
     <>
-      <section className="home">
-        <div className="container d_flex">
+      <section className='home'>
+        <div className='container d_flex'>
           <Categories />
-          <Slider />
+          <SliderHome />
         </div>
       </section>
     </>
